@@ -6,7 +6,8 @@ RUN apt-get update && apt-get install -y \
   patch \
   ruby-dev \
   zlib1g-dev \
-  liblzma-dev
+  liblzma-dev \
+  libpq-dev
 
 ARG USERNAME=ruby
 ARG USER_UID=2001
