@@ -1,7 +1,12 @@
 FROM ruby:2.6-slim
 
 RUN apt-get update && apt-get install -y \
-    git
+  git \
+  build-essential \
+  patch \
+  ruby-dev \
+  zlib1g-dev \
+  liblzma-dev
 
 ARG USERNAME=ruby
 ARG USER_UID=2001
