@@ -1,0 +1,9 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or the definition README at
+// https://github.com/microsoft/vscode-dev-containers/tree/master/containers/ruby-2-rails-5
+{
+  "name": "Ruby 2 Rails",
+  "dockerComposeFile": ["../docker-compose.yaml"],
+  "service": "app",
+  "workspaceFolder": "/home/ruby/app",
+  "extensions": ["rebornix.Ruby"]
+}
